@@ -1,0 +1,15 @@
+[package]
+
+name = "rong"
+version = "0.0.1"
+authors = [ "Jack" ]
+include = ["assets/*"]
+
+[dependencies]
+time = "*"
+[dependencies.sdl2]
+version  = "0.30.0"
+default-features = false
+features = ["gfx","ttf"]
+
+
