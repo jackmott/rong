@@ -15,8 +15,8 @@ use std::time::Duration;
 use std::collections::HashSet;
 use sdl2::gfx::primitives::DrawRenderer;
 
-const SCREEN_WIDTH: u32 = 640;
-const SCREEN_HEIGHT: u32 = 480;
+const SCREEN_WIDTH: u32 = 1280;
+const SCREEN_HEIGHT: u32 = 1024;
 const PADDLE_OFFSET: u32 = 20;
 const PADDLE_WIDTH: i16 = 10;
 const BALL_SIZE: i16 = 5;
